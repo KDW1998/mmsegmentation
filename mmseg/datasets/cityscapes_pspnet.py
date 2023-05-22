@@ -11,8 +11,8 @@ class PortCityscapesDataset(BaseSegDataset):
     fixed to '_gtFine_labelTrainIds.png' for Cityscapes dataset.
     """
     METAINFO = dict(
-        classes=('Background','Ga','Gb','Ex'),
-        palette=[[0,0,0],[255,0,0],[0,0,255],[255,255,0]])
+        classes=('Background','Ga','Ex','Gb'),
+        palette=[[0,0,0],[255,0,0],[255,255,0], [0,0,255]])
 
     def __init__(self,
                  img_suffix='_leftImg8bit.png',
