@@ -118,3 +118,6 @@ mmseg/.mim
 
 # Pytorch
 *.pth
+
+# data folder
+008_2022.12_2022FinalDataset_WithNeg/

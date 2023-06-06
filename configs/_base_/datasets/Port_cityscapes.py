@@ -1,6 +1,6 @@
 # dataset settings
 dataset_type = 'PortCityscapesDataset'
-data_root = '/home/user/WindowsShare/05. Data/02. Training&Test/022. Ministry of Ocean/008_2022 (1).12_2022FinalDataset_WithNeg'
+data_root = '/home/user/crack_gauge/008_2022.12_2022FinalDataset_WithNeg'
 crop_size = (512, 1024)
 train_pipeline = [
     dict(type='LoadImageFromFile'),
